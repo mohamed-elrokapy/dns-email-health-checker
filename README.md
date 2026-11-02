@@ -8,7 +8,7 @@ A small web app that checks whether a domain publishes working **MX, SPF, DKIM a
 
 ## The problem
 
-Mail that fails authentication ends up in spam or is rejected, and most causes are small DNS mistakes: two SPF records, more than 10 SPF lookups, a DMARC policy left on `p=none`, a revoked DKIM key. They are easy to introduce and hard to see. This tool runs the standard checks for a domain and returns a pass, warning or fail for each, with the reason and the fix.
+Mail that fails authentication ends up in spam or is rejected, and most causes are small DNS mistakes: two SPF records, more than 10 SPF lookups, a DMARC policy left on `p=none`, a revoked DKIM key. They are easy to introduce and hard to see. This tool runs the standard checks for a domain and returns a pass, warning or fail for each, with the reason and the fix..
 
 ## What it checks
 
